@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ds.daura">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".programma_dlya_nachinayushih.TwoActivity"></activity>
+        <activity android:name=".programma_dlya_nachinayushih.LectionActivity"></activity>
+        <activity android:name=".programma_dlya_nachinayushih.vtoroi_kurs_po_iz_eb.Vtoroy_kurs_po_izucheniu_edinobojiyaActivity"></activity>
+        <activity android:name=".programma_dlya_treb_znaniya.Plitka2Activity"></activity>
+        <activity android:name=".programma_dlya_treb_znaniya.chetyre_pravila.ChetyrePravilaActivity"></activity>
+        <activity android:name=".programma_dlya_treb_znaniya.TriOsnovPravila"></activity>
+        <activity android:name=".programma_dlya_treb_znaniya.TriOsnovPravila"></activity>
+        <activity android:name=".programma_dlya_nachinayushih.tretii_kurs_po_iz_eb.Tretii_kurs_po_izucheniu_edinobojiyaActivity"></activity>
+        <activity android:name=".programma_dlya_nachinayushih.chetvertiy_kurs_po_izucheniu_edinobojiya.Chetvertiy_kurs_po_izucheniu_edinobojiyaActivity"></activity>
+        <activity android:name=".programma_dlya_treb_znaniya.shest_osnov.ShestOsnovActivity"></activity>
+        <activity android:name=".tolkovanie_korana.TolkovanieKoranaActivity"></activity>
+        <activity android:name=".pokloneniya.PokloneniyaActivity"></activity>
+        <activity android:name=".islam_v_voprosah.IslamVoprosahActivity"></activity>
+    </application>
+
+</manifest>
